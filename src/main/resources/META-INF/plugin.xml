@@ -8,14 +8,19 @@
     <name>Browser</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="3188812583@qq.com" url="">TENG</vendor>
+    <vendor email="3188812583@qq.com" url="http://www.xxx.site">TENG</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description><![CDATA[
-    这是一个IDEA浏览器插件，支持在idea中使用浏览器浏览网页， 支持保存书签，支持暗黑模式，会将网页变为深色(不保证所有网站都适用)
-  ]]></description>
+    <description>
+    <![CDATA[
+        This is an IDEA browser plugin that allows you to browse the web within the IDEA environment.
+        It supports saving bookmarks, offers a dark mode that turns web pages dark (though not guaranteed to work on all websites), and includes a basic ad-blocking feature (not guaranteed to be effective).
+
+        Feel free to use it if you find it useful!
+    ]]>
+    </description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
